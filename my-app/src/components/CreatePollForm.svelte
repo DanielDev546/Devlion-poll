@@ -82,6 +82,7 @@
     border-radius: 6px;
     font-weight: 900px;
     height: 2.5vh;
+    border: 1px solid #ccc;
     padding:10px;
     color: black;
     width: 45vh;
