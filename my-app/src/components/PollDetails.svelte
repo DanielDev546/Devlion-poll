@@ -38,6 +38,7 @@ const handleVote = (option, id) => {
 </Card>
 
 <style>
+
     .poll {
       width: 50vh;
   gap: 2rem;
@@ -78,5 +79,28 @@ span{
   margin-left: -0.53rem;
   border-left: 6px solid green;
   background-color: rgba(69, 196, 150, 0.2);
+}
+@media (max-width: 768px){  
+  .poll {
+     width: 50vh;
+     gap: 2rem;
+     padding: 20px;
+     border-radius: 8px;
+}
+.answer {
+  display: flex;
+  align-items: center;
+
+  margin-top: 10px ;
+  background-color: #fafafa;
+  cursor: pointer;
+  padding: 0.8rem;
+  position: relative;
+}
+.answer:hover{
+  opacity: 0.6;
+}
+
+
 }
 </style>

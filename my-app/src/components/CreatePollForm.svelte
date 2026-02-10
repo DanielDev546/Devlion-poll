@@ -82,7 +82,7 @@
     border-radius: 6px;
     font-weight: 900px;
     height: 2.5vh;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc ;
     padding:10px;
     color: black;
     width: 45vh;
@@ -100,4 +100,19 @@
     font-size: 14px;
     font-weight: bold;
   }
+  @media (max-width: 768px) {
+    form {
+      width: 45vh;
+      margin-left: 10%;
+      margin-right: 10%;
+      padding: 1rem;
+    }
+    input[type="text"] {
+      width: 100%;
+    }
+    button {
+      margin-left: 0;
+      width: 100%;
+    }
+  }                     
 </style>
