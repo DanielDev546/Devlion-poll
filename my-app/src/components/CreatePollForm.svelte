@@ -100,6 +100,11 @@
     font-size: 14px;
     font-weight: bold;
   }
+  .form-field{
+    display: flex;
+    flex-direction: column;
+     margin-bottom: 15px;
+  }
   @media (max-width: 768px) {
     form {
       width: 45vh;
