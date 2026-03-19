@@ -26,6 +26,7 @@
           votesB: '15',
         },
       ];
+      
 
       const handleAdd = (e) => {
         const poll = e.detail;
