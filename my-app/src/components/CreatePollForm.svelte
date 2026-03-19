@@ -113,7 +113,7 @@
       padding: 1rem;
     }
     input[type="text"] {
-      width: 100%;
+      width: 50vh;
     }
     button {
       margin-left: 0;
